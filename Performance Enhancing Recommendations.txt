@@ -1,0 +1,282 @@
+🛠 Recommended Optimizations
+
+Boost system responsiveness and reduce unnecessary resource usage. These tweaks are ideal for gamers, streamers, and power users.
+
+
+---
+
+✅ Windows Features (Optional)
+
+Turn off unused features (e.g., Internet Explorer, XPS Services, Legacy Media Features).
+
+> Reduces background services and system clutter.
+📍 Open: Control Panel > Programs > Turn Windows features on or off
+
+
+
+
+---
+
+✅ Windows Services
+
+Disable unnecessary services (e.g., Print Spooler, Fax, Remote Registry).
+
+> Frees RAM and reduces CPU cycles.
+📍 Use with care: services.msc
+
+
+
+
+---
+
+✅ Xbox Game Bar & Game Mode
+
+Disable Xbox Game Bar & DVR (Captures). Game Mode can stay ON.
+
+> Prevents performance hits from background recording.
+📍 Settings: Gaming → Xbox Game Bar & Captures
+
+
+
+
+---
+
+✅ Performance Options: Virtual RAM (Pagefile)
+
+Set to "System managed" or a custom value:
+Initial Size: Equal to your physical RAM (e.g., 16GB = 16000MB)
+Maximum Size: 1.5x–2x your RAM
+
+> Helps prevent system crashes and out-of-memory errors.
+📍 Settings: System Properties > Performance > Advanced > Virtual Memory
+
+
+
+
+---
+
+✅ Background Apps
+
+Disable unnecessary background apps.
+
+> Reduces RAM, CPU, and battery drain.
+📍 Settings: Apps > Installed apps > Background permissions
+
+
+
+
+---
+
+✅ Startup Apps
+
+Disable non-essential apps from launching at startup.
+
+> Speeds up boot time.
+📍 Access via: Task Manager > Startup tab
+
+
+
+
+---
+
+✅ Display Settings (Resolution & Refresh Rate)
+
+Set your display to its native resolution and max refresh rate (e.g., 144Hz).
+Turn off visual effects like transparency if needed.
+
+> Prevents screen tearing or lag in games.
+📍 Settings: System > Display > Advanced Display Settings
+
+
+
+
+---
+
+✅ Remove Bloatware
+
+Uninstall OEM or pre-installed apps you don’t use.
+
+> Frees storage and reduces background services.
+📍 Tools: BloatyNosy or manual via Settings > Apps
+
+
+
+
+---
+
+✅ Solid Background & Taskbar Effects
+
+Use a solid color background and disable transparency effects.
+
+> Improves performance, especially on low-end systems.
+📍 Settings: Personalization > Colors
+
+
+
+
+---
+
+✅ Disable News and Interests (Taskbar Widget)
+
+Right-click taskbar → Disable “News and Interests”
+
+> Saves bandwidth and CPU time.
+
+
+
+
+---
+
+✅ Privacy Settings & Diagnostics
+
+Limit telemetry, tracking, and syncing.
+
+> Reduces unnecessary background tasks.
+📍 Settings: Privacy & Security → Diagnostics & Feedback
+
+
+
+
+---
+
+✅ NVIDIA Power Management Mode (Graphics Settings)
+
+Choose between “Balanced” and “Prefer Maximum Performance” based on your needs:
+
+Balanced (Recommended for most users):
+Lets your GPU dynamically adjust clock speeds and power usage based on current workload.
+
+Saves power and reduces heat/noise when idle or under light use.
+
+Extends hardware lifespan by avoiding constant high load.
+
+Ideal for everyday use, watching videos, casual gaming, or general tasks.
+
+
+Prefer Maximum Performance:
+Keeps the GPU running at higher clock speeds all the time, preventing downclocking during light use.
+
+Ensures maximum frame rate consistency for gaming, streaming, or GPU-intensive tasks.
+
+Can reduce frame drops or stuttering in demanding applications.
+
+Increases power consumption, heat generation, and fan noise.
+
+Not recommended if your main goal is to save system resources or reduce energy use.
+
+
+
+> Best practice: Set “Balanced” globally and configure “Prefer Maximum Performance” only for specific apps (e.g., OBS, games) in NVIDIA Control Panel → Manage 3D Settings → Program Settings.
+
+
+
+📍 NVIDIA Control Panel → Manage 3D Settings → Power Management Mode
+
+
+---
+
+
+✅ Autoruns (Sysinternals)
+
+Use Autoruns to disable hidden startup entries and tasks.
+
+> Essential for advanced users to remove unwanted background processes.
+
+
+
+
+---
+
+✅ O&O ShutUp10++
+
+Download: O&O ShutUp10++
+
+> Disable Windows telemetry, background services, and auto updates.
+📍 Apply recommended settings for max privacy and performance.
+
+
+
+
+---
+
+
+✅ 🧰 PhoenixPC Born Again Tool
+
+A custom-built PowerShell GUI tool that integrates:
+
+✅ DNS flush
+
+✅ Network service restart
+
+✅ Windows Explorer restart
+
+✅ Temp file cleanup
+
+✅ Standby memory clearing (via RAMMap)
+
+✅ RAM optimization (via ReduceMemory)
+
+✅ Driver resets (via Devcon: GPU, Network, Audio, USB)
+
+
+📥 Download Devcon: https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon
+📥 Download RAMMap: https://learn.microsoft.com/en-us/sysinternals/downloads/rammap
+📥 Download ReduceMemory: https://www.sordum.org/9197/reduce-memory-v1-7/
+
+🗂 Tool remembers paths to each utility for repeat use.
+🖱 Simply check tasks and click Run Selected Tasks.
+
+> Perfect for one-click troubleshooting or pre/post gaming optimization.
+⚠️ Restart may be prompted depending on task.
+
+
+Link To Downloads Included In GUI:
+
+✅ Devcon (Driver Reset Utility)
+
+Devcon is a Microsoft-signed command-line utility to manage device drivers.
+
+You can use Devcon to:
+
+🔄 Restart GPU drivers: devcon restart =DISPLAY
+
+🌐 Restart network adapters: devcon restart =NET
+
+🔊 Reset audio devices: devcon restart =MEDIA
+
+🔌 Reset USB controllers: devcon restart =USB
+
+
+> ⚠️ Useful when drivers are buggy or unresponsive. May prompt a system restart.
+
+
+
+
+---
+
+✅ RAMMap (Sysinternals)
+
+Download: RAMMap
+
+Use the Empty > Standby List feature to free up unused RAM cache that Windows doesn’t release automatically.
+
+> Improves responsiveness in RAM-heavy applications.
+
+
+
+
+---
+
+✅ ReduceMemory
+
+Download: ReduceMemory v1.7
+
+One-click RAM cleaner for active memory management.
+
+> Helps when multitasking or after heavy gaming sessions.
+
+
+
+
+---
+
