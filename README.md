@@ -6,7 +6,8 @@ Last Updated: [6/18/25]
 
 ---
 
-![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/main/PhoenixPC%20Preview.png)
+--Click Through--Launch Trailer--
+[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/main/PhoenixPC%20Preview.png)](https://www.youtube.com/watch?v=GKDkKKt9Y7I&autoplay=1&rel=0)
 
 
 ---
