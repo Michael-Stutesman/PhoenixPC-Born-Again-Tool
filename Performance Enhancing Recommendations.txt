@@ -135,6 +135,26 @@ Limit telemetry, tracking, and syncing.
 📍 Settings: Privacy & Security → Diagnostics & Feedback
 
 
+---
+
+✅ Power Plan Selection (Performance vs. Efficiency)
+
+Choose the right Windows power plan to optimize performance or save power, especially on desktops or laptops.
+
+Plan	What It Does	Best For
+
+High Performance	Keeps CPU/GPU at higher speeds for max responsiveness	Gaming, streaming, multitasking
+Balanced (default)	Scales performance based on demand	General use (good mix of speed and efficiency)
+Power Saver	Lowers performance to save power	Laptops on battery or ultra-light use
+
+
+> On desktops, switching from Balanced to High Performance can reduce lag and improve responsiveness, especially for gaming or productivity workloads.
+
+
+
+📍 Change via:
+Control Panel → Power Options → Choose a power plan
+(Or run: powercfg.cpl)
 
 
 ---
