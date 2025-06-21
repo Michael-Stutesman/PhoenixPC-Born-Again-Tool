@@ -40,6 +40,7 @@ Frees up RAM consumed by idle or background processes.
 
 🔌 Reinitialize Device Drivers (Requires DevCon)
 Uses DevCon to soft-restart selected hardware (e.g., audio, GPU, USB), helpful after driver crashes or resets.
+➤ The entire GUI app auto-elevates to administrator privileges on launch to ensure all driver reset and system commands work seamlessly.
 
 🕒 Repeat Task Timer
 A built-in interval timer allows selected tasks to run repeatedly at user-defined intervals. This is useful for ongoing optimization or monitoring — for example, keeping RAM usage low during heavy multitasking or automatically flushing DNS every few minutes. The timer runs until manually stopped.
