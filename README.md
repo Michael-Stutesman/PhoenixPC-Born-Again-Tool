@@ -5,7 +5,7 @@ Last Updated: [6/21/25]
 
 --Click Through--Launch Trailer--
 
-[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/blob/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)
+[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)](https://www.youtube.com/watch?v=GKDkKKt9Y7I&autoplay=1&rel=0)
 
 
 ---
