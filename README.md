@@ -3,9 +3,9 @@
 Version: 1.0
 Last Updated: [6/21/25]
 
---Click Through--Launch Trailer--
+--Click Through-
 
-[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)](https://www.youtube.com/watch?v=GKDkKKt9Y7I&autoplay=1&rel=0)
+[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)]
 
 
 ---
@@ -212,4 +212,5 @@ PhoenixPC Born Again is provided “as is,” without warranties or guarantees o
 This tool uses or references third-party utilities (RAMMap, ReduceMemory, DevCon). These must be downloaded separately and are owned by their respective developers. Please ensure you only obtain them from official or trusted sources.
 
 Redistribution and modification are permitted under the MIT License. However, please credit the original creator when sharing or adapting this tool.
+
 
