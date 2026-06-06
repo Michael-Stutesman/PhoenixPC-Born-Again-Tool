@@ -3,7 +3,7 @@
 Version: 1.0
 Last Updated: [6/21/25]
 
-[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/a8b1fe76b39a2a166b27b4f834c6568b599eca9e/PhoenixPC%20Preview.png)]
+[![PhoenixPC Preview](https://github.com/Michael-Stutesman/PhoenixPC-Born-Again-Tool/raw/main/PhoenixPC%20Preview.png)]
 
 
 ---
