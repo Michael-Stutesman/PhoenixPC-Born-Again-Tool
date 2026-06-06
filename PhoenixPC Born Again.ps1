@@ -188,12 +188,12 @@ $form.Add_FormClosed({
 
 # Task definitions
 $tasks = @(
-	@{ N = " Flush DNS ";                          D = " Resets DNS cache.  Fixes loading and routing issues.";     A = { Flush-DNS };                Y = 10 },
+	@{ N = " Flush DNS ";                         D = " Resets DNS cache.  Fixes loading and routing issues.";     A = { Flush-DNS };                Y = 10 },
 	@{ N = " Restart Network Services ";          D = " Restarts network stack.  Resolves connection faults.";     A = { Restart-NetworkServices };  Y = 40 },
 	@{ N = " Restart Windows Explorer ";          D = " Reloads UI shell.  Fixes desktop or taskbar bugs.";        A = { Restart-Explorer };         Y = 70 },
 	@{ N = " Clear Temp Files ";                  D = " Removes temp data.  Recovers drive space.";                A = { Clear-TempFiles };          Y = 100 },
 	@{ N = " Clear RAM Standby List  (RAMMap) ";  D = " Flushes standby RAM.  Helps lag, may stutter.";            A = { Clear-RAMStandby };         Y = 130 },
-	@{ N = " Optimize Memory  (ReduceMemory) ";   D = " Frees unused RAM.  Smoother multitasking.";                A = { Run-ReduceMemory };         Y = 160 },
+	@{ N = " Optimize Memory  (ReduceMemory) ";   D = " Reduce working sets.  Smoother multitasking.";             A = { Run-ReduceMemory };         Y = 160 },
 	@{ N = " Reset GPU Driver  (DevCon) ";        D = " Resets display adapter drivers.  May prompt restart*";     A = { Reset-DevconGPU };          Y = 190 },
 	@{ N = " Reset Network Adapters  (DevCon) ";  D = " Restarts network adapters.  May prompt restart*";          A = { Reset-DevconNet };          Y = 220 },
 	@{ N = " Reset Audio Drivers  (DevCon) ";     D = " Restarts audio devices.  May prompt restart*";             A = { Reset-DevconAudio };        Y = 250 },
